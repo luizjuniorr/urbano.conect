@@ -80,6 +80,10 @@ section {
     font-weight: 700;
 }
 
+.textosecao1 {
+    margin-right: 100px;
+}
+
 .textosecao1 .botaosobre{
     display: flex;
     justify-content: space-between;
