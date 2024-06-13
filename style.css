@@ -9,6 +9,8 @@
     --black: #000;
     --white: #fff;
     --dark-blue: #1D2540;
+    --aqua-green: #62C0BD;
+    --gray: #626C7F;
 }
 
 header {
@@ -66,8 +68,11 @@ section {
 }
 
 .secao1 {
-    width: 70%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
     align-items: center;
+    border: red 1px solid;
 }
 
 .secao1 h1{
@@ -84,7 +89,11 @@ section {
     margin-right: 100px;
 }
 
-.textosecao1 .botaosobre{
+.secao1 .textosecao1 p{
+    width: 450px;
+}
+
+.secao1 .textosecao1 .botaosobre{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -121,4 +130,46 @@ section {
 .secao1 img{
     height: 550px;
     border-radius: 50px;
+}
+
+.secao2 {
+    background: var(--dark-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secao2 .titulosecao2 {
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secao2 .titulosecao2 h2 {
+    font-size: 64px;
+    font-family: "Vollkorn", serif;
+}
+
+.secao2 .titulosecao2 p {
+    font-size: 18px;
+    font-family: "Vollkorn", serif;
+    margin-top: -15px;
+}
+
+.bluebar {
+    background: var(--aqua-green);
+    width: 400px;
+    height: 30px;
+    border-radius: 30px 30px 0 0;
+}
+
+.definicao {
+    background: var(--white);
+    border-radius: 30px 30px 0 0;
+    width: 400px;
+    text-align: center;
+    color: var(--gray);
 }
