@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+header .logo img {
+    height: 50px;
+    width: 50px;
+}
+
+header .navegacao {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+header .navegacao ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+header .navegacao button {
+    background: none;
+    border: none;
+}
+
+header .navegacao button img {
+    height: 30px;
+    width: 30px;
+}
