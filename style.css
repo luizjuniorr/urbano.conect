@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+:root {
+    --white: #fff;
+    --dark: #000;
+    --dark-blue: #1D2540;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -42,4 +48,44 @@ header .navegacao button {
 header .navegacao button img {
     height: 30px;
     width: 30px;
+}
+
+.boasvindas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boasvindas h1{
+    font-family: "Vollkorn", serif;
+    font-weight: 400;
+    font-size: 66px;
+    line-height: 75px;
+    margin-bottom: 20px;
+}
+
+.boasvindas .textos p {
+    font-family: "Inter", sans-serif;
+    width: 450px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.boasvindas .textos button {
+    text-transform: uppercase;
+    font-family: "Inter", sans-serif;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 25px;
+    background: var(--dark-blue);
+    padding: 13px;
+    width: 30%;
+}
+
+.boasvindas .imagem img {
+    width: 380px;
+    border-radius: 30px;
+    margin-left: 60px;
 }
