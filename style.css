@@ -2,12 +2,16 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 
 :root {
     --white: #fff;
-    --dark: #000;
+    --black: #000;
     --dark-blue: #1D2540;
+    --light-dark-blue: #3C506A;
+    --light-green: #62C0BD;
+    --gray: #626C7F;
 }
 
 header {
@@ -38,6 +42,11 @@ header .navegacao ul {
     display: flex;
     list-style: none;
     gap: 20px;
+}
+
+header .navegacao a {
+    color: var(--black);
+    text-decoration: none;
 }
 
 header .navegacao button {
@@ -84,8 +93,150 @@ header .navegacao button img {
     width: 30%;
 }
 
-.boasvindas .imagem img {
+.boasvindas img {
     width: 380px;
     border-radius: 30px;
     margin-left: 60px;
+}
+
+.assunto {
+    margin-top: 20px;
+    background: var(--dark-blue);
+    height: 100%;
+    color: var(--white);
+}
+
+
+.assunto .headerassunto .tituloassunto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -100px;
+}
+
+.assunto .livro {
+    display: flex;
+    justify-content: flex-start;
+    width: 130px;
+    height: 130px;
+}
+
+.assunto .headerassunto .tituloassunto h1 {
+    font-size: 66px;
+    margin-bottom: -6px;
+}
+
+.assunto .headerassunto .tituloassunto h2 {
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.assunto .row {
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    gap: 80px;
+}
+
+.assunto .temas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.assunto .temas .blue {
+    background: var(--light-green);
+    border-radius: 25px 25px 0 0;
+    width: 300px;
+    height: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.assunto .temas .blue img {
+    width: 120px;
+    height: 120px;
+    margin-top: -93px;
+    border: 1px solid var(--black);
+    border-radius: 50%;
+}
+
+.assunto .temas .temaassunto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+
+    border-radius: 0 0 25px 25px;
+    padding-bottom: 20px;
+    padding-inline: 20px;
+    background: var(--white);
+    color: var(--gray);
+
+    width: 300px;
+    height: 233px;
+}
+
+.assunto .temas .temaassunto h2 {
+    margin-top: 8px;
+}
+
+.assunto button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+
+    background: var(--light-green);
+    border: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 500;
+
+    margin-top: 20px;
+    width: 680px;
+    padding: 12px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.rodape {
+    background: var(--dark-blue);
+    border: 1px solid var(--dark-blue);
+}
+
+.inf {
+    margin-top: 20px;
+    background: var(--light-dark-blue);
+    border-radius: 25px 25px 0 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.inf .email, .twitter, .instagram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+}
+
+.inf img {
+    margin-right: 5px;
+}
+
+.inf .email img{
+    width: 35px;
+    height: 25px;
+}
+.inf img{
+    width: 25px;
+    height: 25px;
 }
