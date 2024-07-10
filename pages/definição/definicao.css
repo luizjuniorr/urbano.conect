@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+:root {
+    --white: #fff;
+    --black: #000;
+    --dark-blue: #1D2540;
+    --light-dark-blue: #3C506A;
+    --light-green: #62C0BD;
+    --gray: #626C7F;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+header .logo img {
+    height: 50px;
+    width: 50px;
+}
+
+header .navegacao {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+header .navegacao ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+header .navegacao a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+header .navegacao button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+header .navegacao button img {
+    height: 30px;
+    width: 30px;
+}
+
+main {
+    width: 60%;
+    margin-inline: auto;
+    margin-top: 40px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
+    padding: 40px;
+    border-radius: 15px;
+}
+
+h1, h2 {
+    color: var(--gray);
+}
+
+.definicao {
+    margin-bottom: 20px;
+}
+
+.definicao h1 {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.crescimento_territorial_populacional h2 {
+    margin-bottom: 20px;
+}
+
+.crescimento_territorial_populacional div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.crescimento_territorial_populacional div p {
+    width: 400px;
+}
+
+
+.crescimento_territorial_populacional .img1 {
+    margin-left: 40px;
+    height: 226px;
+}
+
+.crescimento_territorial_populacional .img2 {
+    margin-right: 50px;
+    height: 226px;
+}
+
+.desenvolvimento_da_infraestrutura h2 {
+    margin-bottom: 20px;
+}
+
+.desenvolvimento_da_infraestrutura div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.desenvolvimento_da_infraestrutura img {
+    margin-inline: 40px;
+    height: 260px;
+}
+
+.desenvolvimento_da_infraestrutura p {
+    margin-bottom: 20px;
+}
+
+.material_de_apoio {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.material_de_apoio h2 {
+    margin-bottom: 20px;
+}
+
+.material_de_apoio img {
+    margin-bottom: 20px;
+    width: 600px;
+}

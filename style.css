@@ -24,6 +24,7 @@ header .logo {
     display: flex;
     align-items: center;
     margin-left: 20px;
+    cursor: pointer;
 }
 
 header .logo img {
@@ -52,6 +53,7 @@ header .navegacao a {
 header .navegacao button {
     background: none;
     border: none;
+    cursor: pointer;
 }
 
 header .navegacao button img {
