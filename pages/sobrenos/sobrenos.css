@@ -119,43 +119,35 @@ header nav.menus ul li {
     cursor: pointer;
 }
 
-main .imagem img{
-    width: 100%;
+main {
+    width: 80%;
+    margin-top: 30px;
+    margin-inline: auto;
+    border-radius: 15px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
+    padding: 20px;
 }
 
-.conteudos {
+.titulo{
     display: flex;
     justify-content: center;
-    gap: 160px;
-    margin-top: -10px;
-    background-color: var(--light-green);
-}
-
-.conteudos div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.conteudos div button img {
-    margin-bottom: 10px;
-}
-
-main button {
+    padding: 5px;
+    text-transform: uppercase;
     background: var(--light-green);
-    padding: 7px;
-    width: 9.375rem;
-    height: 9.375rem;
-    margin-top: -60px;
-
-    flex-shrink: 0;
-    border-radius: 50%;
-    border: none;
-    cursor: pointer;
+    width: 250px;
+    border-radius: 0px 30px;
 }
 
-main button img {
-    width: 80px;
-    height: 80px;
+section div {
+    display: flex;
+    margin-top: 30px;
+}
+
+section div img {
+    height: 120px;
+    margin-right: 30px;
+}
+
+section div p {
+    font-size: 18px;
 }

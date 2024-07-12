@@ -1,4 +1,5 @@
-import { botaoHomeir } from "../../helpers/botaohome.js";
+import { botaoHomeir } from "../../helpers/botaohome.js"
+import { abrirMenu, fecharMenu, botaoSobreNosir, botaoSugestoesir } from "../../helpers/menu.js"
 
 const botaoDefinicao = document.querySelector(".conteudos .definicao button")
 const botaoExodo = document.querySelector(".conteudos .exodo button")
@@ -16,4 +17,12 @@ function botaoDefinicaoir() {
 
 function botaoExodoir() {
     window.location.href = "../exodorural/exodorural.html"
+}
+
+function botaoIndustrializacaoir() {
+    window.location.href = "../industrializacao/industrializacao.html"
+}
+
+function botaoBeneficioseproblemasir() {
+    window.location.href = "../beneficioseproblemas/beneficioseproblemas.html"
 }
