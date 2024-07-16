@@ -5,6 +5,7 @@ const botaoSugestoes = document.querySelector("header .menus #sugestoes")
 
 const body = document.querySelector("body")
 const nav = document.querySelector("header .menus")
+const header = document.querySelector("header")
 
 botaoAbrir.addEventListener('click', abrirMenu)
 botaoFechar.addEventListener('click', fecharMenu)
@@ -14,11 +15,13 @@ botaoSugestoes.addEventListener('click', botaoSugestoesir)
 export function abrirMenu(){
     body.classList.add("escurecer")
     nav.classList.add("abrir")
+    header.classList.add("abrir")
 }
 
 export function fecharMenu() {
     body.classList.remove("escurecer")
     nav.classList.remove("abrir")
+    header.classList.remove("abrir")
 }
 
 export function botaoSobreNosir() {

@@ -1,0 +1,104 @@
+{
+    "questions": [
+                {
+                    "question": "Qual o significado de HTML?",
+                    "options": [
+                        "Hyper Trainer Marking Language",
+                        "Hyper Text Marketing Language",
+                        "Hyper Text Markup Language",
+                        "Hyper Text Markup Leveler"
+                    ],
+                    "answer": "Hyper Text Markup Language"
+                },
+                {
+                    "question": "Qual das alternativas abaixo mostra a estrutura correta de um documento HTML?",
+                    "options": [
+                        "<html><head></head><body></body></html>",
+                        "<head><html></html><body></body></head>",
+                        "<body><head></head><html></html></body>",
+                        "<html><body></body><head></head></html>"
+                    ],
+                    "answer": "<html><head></head><body></body></html>"
+                },
+                {
+                    "question": "Qual dos elementos abaixo e responsável pelo título do documento?",
+                    "options": [
+                        "<head>",
+                        "<title>",
+                        "<header>",
+                        "<top>"
+                    ],
+                    "answer": "<title>"
+                },
+                {
+                    "question": "Qual é a função da tag <body> no HTML?",
+                    "options": [
+                        "Define o cabeçalho da página.",
+                        "Contém todo o conteúdo como textos, imagens e links.",
+                        "Utilizada para definir o conteúdo principal da página.",
+                        "Define o corpo de um elemento de email no HTML."
+                    ],
+                    "answer": "Contém todo o conteúdo como textos, imagens e links."
+                },
+                {
+                    "question": "Qual das tags abaixo é usada para criar hyperlinks (âncoras)?",
+                    "options": [
+                        "<hyperlink>",
+                        "<link>",
+                        "<a>",
+                        "<href>"
+                    ],
+                    "answer": "<a>"
+                },
+                {
+                    "question": "Qual das tags é usada para mostrar imagens no HTML?",
+                    "options": [
+                        "<img>",
+                        "<image>",
+                        "<src>",
+                        "<pic>"
+                    ],
+                    "answer": "<img>"
+                },
+                {
+                    "question": "Qual atributo é utilizado para indicar o caminho (fonte) de uma tag <img>?",
+                    "options": [
+                        "link",
+                        "src",
+                        "href",
+                        "url"
+                    ],
+                    "answer": "src"
+                },
+                {
+                    "question": "Qual tag HTML é usada para criar uma lista não ordenada?",
+                    "options": [
+                        "<ul>",
+                        "<ol>",
+                        "<list>",
+                        "<li>"
+                    ],
+                    "answer": "<ul>"
+                },
+                {
+                    "question": "O que faz a tag <br>?",
+                    "options": [
+                        "Quebra o texto em duas seções.",
+                        "Deixa o texto em negrito.",
+                        "Insere uma quebra de linha.",
+                        "Adiciona uma nova linha na tabela."
+                    ],
+                    "answer": "Insere uma quebra de linha."
+                },
+                {
+                    "question": "No HTML, o que faz a tag `fieldset`?",
+                    "options": [
+                        "É usada para agrupar informações relacionadas de um formulário.",
+                        "Define um tamanho fixo para o formulário.",
+                        "Faz a verificação automática das respostas do formulário.",
+                        "Esconde os campos de um formulário."
+                    ],
+                    "answer": "É usada para agrupar informações relacionadas de um formulário."
+                }
+            ]
+}

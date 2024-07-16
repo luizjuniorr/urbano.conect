@@ -2,7 +2,7 @@ import { botaoHomeir } from "./helpers/botaohome.js"
 import { abrirMenu, fecharMenu, botaoSobreNosir, botaoSugestoesir } from "./helpers/menu.js"
 
 const botaoConteudo = document.querySelector(".assunto button")
-const botaoSobre = document.querySelector(".boasvindas .textos")
+const botaoSobre = document.querySelector(".boasvindas .textos button")
 
 botaoConteudo.addEventListener("click", botaoConteudoir)
 botaoSobre.addEventListener("click", botaoSobreir)

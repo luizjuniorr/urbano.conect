@@ -28,12 +28,21 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 50px;
+    background: var(--white);
+    position: sticky;
+    top: 0;
+}
+
+header.abrir {
+    position: initial;
 }
 
 header .logo {
     display: flex;
     align-items: center;
     margin-left: 20px;
+    cursor: pointer;
 }
 
 header .logo img {
@@ -273,7 +282,6 @@ header nav.menus ul li {
 .inf {
     margin-top: 20px;
     background: var(--light-dark-blue);
-    border-radius: 25px 25px 0 0;
 
     display: flex;
     align-items: center;

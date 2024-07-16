@@ -34,10 +34,55 @@
 
                 <ul>
                     <li id="sobrenos">Sobre nós</li>
-                    <li id="#sugestoes">Sugestões</li>
+                    <li id="sugestoes">Sugestões</li>
                 </ul>
             </nav>
         </div>
     </header>
+
+    <div class="box">
+        <main>
+            <div class="blue">
+                <h1>Sugestões</h1>
+            </div>
+    
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <div class="nome">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="name" placeholder="Digite seu nome...">
+                </div>
+    
+                <div class="email">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail...">
+                </div>
+    
+                <div class="mensagem">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="message" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem..."></textarea>
+                </div>
+    
+                <button type="submit">Enviar</button>
+    
+                <input type="hidden" name="accessKey" value="98640cac-5b5a-4ccb-bb9b-df960adfc16c">
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/pages/sugestaorecebida/sugestaorecebida.html">
+            </form>
+        </main>
+    </div>
+    
+
+    <div class="popup">
+        <div class="conteudo">
+            <div class="blue"></div>
+            <div class="textos">
+                <h2>OBRIGADO PELA SUJESTÃO</h2>
+
+                <p>Avaliaremos a sua sujestão!</p>
+
+                <button>Fechar</button>
+            </div>      
+        </div>
+        
+    </div>
 </body>
 </html>

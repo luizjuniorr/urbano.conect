@@ -14,3 +14,11 @@ function botaoSobreNosir() {
 function botaoSugestoesir() {
     window.location.href = "../sugestoes/sugestoes.html"
 }
+
+const botaoVoltar = document.querySelector("section div button")
+
+botaoVoltar.addEventListener("click", botaoVoltarIr)
+
+function botaoVoltarIr() {
+    window.location.href = "../../index.html"
+}
