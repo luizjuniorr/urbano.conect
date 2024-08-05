@@ -11,7 +11,10 @@
     --dark-blue: #1D2540;
     --light-dark-blue: #3C506A;
     --light-green: #62C0BD;
+    --light-green-hover: #4b9693;
     --gray: #626C7F;
+    --green: #26d782;
+    --red: #ee5454;
 }
 
 body.escurecer::before {
@@ -348,6 +351,7 @@ section {
 .alternativas button:hover {
     background: var(--light-green-hover);
     transition: 0.2s;
+    color: var(--white);
 }
 
 .sair {
