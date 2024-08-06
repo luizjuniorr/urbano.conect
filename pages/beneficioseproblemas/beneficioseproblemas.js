@@ -14,3 +14,17 @@ function botaoSobreNosir() {
 function botaoSugestoesir() {
     window.location.href = "../sugestoes/sugestoes.html"
 }
+
+const botaoEsquerda = document.querySelector(".setas .esquerda")
+botaoEsquerda.addEventListener("click", esquerda)
+
+function esquerda(){
+    window.location.href = "../industrializacao/industrializacao.html"
+}
+
+const botaoSubir = document.querySelector(".subirpg button")
+botaoSubir.addEventListener("click", subirPagina)
+
+function subirPagina() {
+    window.Location.href("./beneficioseproblemas.html")
+}

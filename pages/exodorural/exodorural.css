@@ -128,6 +128,45 @@ header nav.menus ul li {
     cursor: pointer;
 }
 
+.setas {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+
+.setas button {
+    background: none;
+    border: none;
+    font-size: 52px;
+    cursor: pointer;
+}
+
+.setas button:hover {
+    color: gray;
+    transition: 0.15s;
+}
+
+#link-topo {
+    background: var(--light-green);
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 30px;
+    color: var(--black);
+    padding: 15px;
+
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+#link-topo:hover {
+    background: var(--light-green-hover);
+    color: var(--white);
+    transition: 0.1s;
+}
+
 main {
     width: 60%;
     margin-inline: auto;

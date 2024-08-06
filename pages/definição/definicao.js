@@ -14,3 +14,10 @@ function botaoSobreNosir() {
 function botaoSugestoesir() {
     window.location.href = "../sugestoes/sugestoes.html"
 }
+
+const botaoDireita = document.querySelector(".setas .direita")
+botaoDireita.addEventListener("click", direita)
+
+function direita(){
+    window.location.href = "../exodorural/exodorural.html"
+}

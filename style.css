@@ -11,7 +11,13 @@
     --dark-blue: #1D2540;
     --light-dark-blue: #3C506A;
     --light-green: #62C0BD;
+    --light-green-hover: #4b9693;
     --gray: #626C7F;
+}
+
+body {
+    max-width: 1440px;
+    margin-inline: auto;
 }
 
 body.escurecer::before {
@@ -126,6 +132,12 @@ header nav.menus ul li {
     border-radius: 10px;
     font-size: 16px;
     cursor: pointer;
+}
+
+body button:hover {
+    background: var(--light-green-hover);
+    color: var(--white);
+    transition: 0.2s;
 }
 
 .boasvindas {
