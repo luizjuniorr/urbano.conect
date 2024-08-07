@@ -204,11 +204,13 @@ body button:hover {
 }
 
 .assunto .headerassunto .tituloassunto h1 {
-    font-size: 66px;
-    margin-bottom: -6px;
+    font-family: "Vollkorn", serif;
+    font-size: 70px;
+    margin-bottom: -18px;
 }
 
 .assunto .headerassunto .tituloassunto h2 {
+    font-family: "Vollkorn", serif;
     font-size: 27px;
     font-weight: 500;
 }
