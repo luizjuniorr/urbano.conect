@@ -134,7 +134,7 @@ header nav.menus ul li {
     cursor: pointer;
 }
 
-body button:hover {
+body .assunto button:hover {
     background: var(--light-green-hover);
     color: var(--white);
     transition: 0.2s;
