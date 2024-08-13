@@ -131,10 +131,10 @@ header nav.menus ul li {
 
 .setas {
     height: 100vh;
-    width: 100%;
-    position: fixed;
     display: flex;
-    justify-content: flex-start;
+    align-items: center;
+    width: auto;
+    position: fixed;
 }
 
 .setas button {
@@ -147,6 +147,10 @@ header nav.menus ul li {
 .setas button:hover {
     color: gray;
     transition: 0.15s;
+}
+
+.esquerda {
+    left: 0;
 }
 
 #link-topo {

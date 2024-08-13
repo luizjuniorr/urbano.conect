@@ -15,14 +15,14 @@ function botaoSugestoesir() {
     window.location.href = "../sugestoes/sugestoes.html"
 }
 
-const botaoEsquerda = document.querySelector(".setas .esquerda")
+const botaoEsquerda = document.querySelector(".esquerda")
 botaoEsquerda.addEventListener("click", esquerda)
 
 function esquerda(){
     window.location.href = "../exodorural/exodorural.html"
 }
 
-const botaoDireita = document.querySelector(".setas .direita")
+const botaoDireita = document.querySelector(".direita")
 botaoDireita.addEventListener("click", direita)
 
 function direita(){

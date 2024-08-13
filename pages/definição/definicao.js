@@ -15,7 +15,7 @@ function botaoSugestoesir() {
     window.location.href = "../sugestoes/sugestoes.html"
 }
 
-const botaoDireita = document.querySelector(".setas .direita")
+const botaoDireita = document.querySelector(".direita")
 botaoDireita.addEventListener("click", direita)
 
 function direita(){
