@@ -191,12 +191,16 @@ h1 {
     font-size: 30px;
 }
 
-h2 {
+h2, h3 {
     color: var(--gray);
 }
 
-h1, h2, main p, main img {
+h1, h2, h3, main p, main img {
     margin-bottom: 20px;
+}
+
+h3 {
+    margin-inline: auto;
 }
 
 section {
@@ -206,4 +210,9 @@ section {
 
 main div {
     margin-inline: auto;
+}
+
+iframe {
+    margin-inline: auto;
+    margin-bottom: 20px;
 }
