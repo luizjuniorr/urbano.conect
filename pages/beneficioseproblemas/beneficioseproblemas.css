@@ -15,6 +15,11 @@
     --gray: #626C7F;
 }
 
+body {
+    max-width: 1440px;
+    margin-inline: auto;
+}
+
 body.escurecer::before {
     content: "";
     position: fixed;
@@ -61,7 +66,7 @@ header .navegacao {
 header .navegacao ul {
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 60px;
 }
 
 header .navegacao a {

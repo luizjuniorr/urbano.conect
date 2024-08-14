@@ -17,6 +17,11 @@
     --red: #ee5454;
 }
 
+body {
+    max-width: 1440px;
+    margin-inline: auto;
+}
+
 body.escurecer::before {
     content: "";
     position: fixed;
@@ -63,7 +68,7 @@ header .navegacao {
 header .navegacao ul {
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 60px;
 }
 
 header .navegacao a {
@@ -217,6 +222,8 @@ header nav.menus ul li {
 main {
     display: flex;
     width: 90%;
+    height: 80vh;
+    align-items: center;
     margin-inline: auto;
     justify-content: center;
     margin-top: 50px;

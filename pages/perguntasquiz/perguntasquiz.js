@@ -1,8 +1,4 @@
 import { botaoHomeir } from "../../helpers/botaohome.js"
-import { abrirMenu, fecharMenu } from "../../helpers/menu.js"
-
-const botaoSobreNos = document.querySelector("header .menus #sobrenos")
-const botaoSugestoes = document.querySelector("header .menus #sugestoes")
 const botaoSair = document.querySelector(".sair")
 
 let quiz = {}
@@ -12,8 +8,6 @@ let resposta = ""
 let idInputResposta = ""
 let respostaCorretaId = ""
 
-botaoSobreNos.addEventListener('click', botaoSobreNosir)
-botaoSugestoes.addEventListener('click', botaoSugestoesir)
 botaoSair.addEventListener('click', popUpAbrir)
 
 function popUpAbrir() {
@@ -36,14 +30,6 @@ function popUpAbrir() {
         popUp.classList.remove("abrir")
         body.classList.remove("escurecer")
     }
-}
-
-function botaoSobreNosir() {
-    window.location.href = "../sobrenos/sobrenos.html"
-}
-
-function botaoSugestoesir() {
-    window.location.href = "../sugestoes/sugestoes.html"
 }
 
 async function buscarPerguntas() {

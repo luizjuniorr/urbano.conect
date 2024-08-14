@@ -60,7 +60,7 @@ header .navegacao {
 header .navegacao ul {
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 60px;
 }
 
 header .navegacao a {
