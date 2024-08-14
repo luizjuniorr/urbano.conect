@@ -1,5 +1,10 @@
-import { botaoHomeir } from "../../helpers/botaohome.js"
-const botaoSair = document.querySelector(".sair")
+const inicio = document.querySelector("header .logo")
+
+inicio.addEventListener("click", homeIr)
+
+function homeIr() {
+    window.location.href = "../../index.html"
+}
 
 let quiz = {}
 let pergunta = 1
@@ -8,27 +13,28 @@ let resposta = ""
 let idInputResposta = ""
 let respostaCorretaId = ""
 
+const botaoSair = document.querySelector(".sair")
 botaoSair.addEventListener('click', popUpAbrir)
 
 function popUpAbrir() {
     const popUp = document.querySelector(".mensagemsair")
     const body = document.querySelector("body")
-    popUp.classList.add("abrir")
+    popUp.classList.add("abrirpopup")
     body.classList.add("escurecer")
 
-    const botaoPopUp = document.querySelector(".mensagemsair .conteudo button")
-    botaoPopUp.addEventListener("click", voltarPagina)
-    
-    function voltarPagina() {
-        window.location.href = "../quiz/quiz.html"
-    }
+    const popUpFechar = document.querySelector(".mensagemsair .conteudo .botaofechar")
+    popUpFechar.addEventListener("click", fecharPopUp)
 
-    const textVoltar = document.querySelector(".mensagemsair .conteudo p.voltar")
-    textVoltar.addEventListener("click", textVoltarFecharPopUp)
-
-    function textVoltarFecharPopUp() {
-        popUp.classList.remove("abrir")
+    function fecharPopUp() {
+        popUp.classList.remove("abrirpopup")
         body.classList.remove("escurecer")
+    }
+    
+    const botaoSairPopUp = document.querySelector(".mensagemsair .conteudo .textos .botaosair")
+    botaoSairPopUp.addEventListener("click", botaoSairFecharPagina)
+
+    function botaoSairFecharPagina() {
+        window.location.href = "../quiz/quiz.html"
     }
 }
 
@@ -44,7 +50,7 @@ function barraProgresso() {
     const body = document.querySelector("body .barra_progresso")
 
     body.innerHTML = `
-        <div style="width: ${pergunta * 10}%"></div>
+        <div style="width: ${pergunta * 6.6666666666667}%"></div>
         
     `
 }
@@ -57,12 +63,14 @@ function montarPergunta() {
             <div>
     
                 <h2>${alterarSinais(quiz.questions[pergunta-1].question)}</h2>
+
+                <h2 class="subh2">${alterarSinais(quiz.questions[pergunta-1].subquestion)}</h2>
             </div>
         </section>
     
         <section class="alternativas">
             
-            <p>Questão ${pergunta} de 10</p>
+            <p>Questão ${pergunta} de 15</p>
 
             <form action="">
                 <label for="alternativa_a">
@@ -100,6 +108,15 @@ function montarPergunta() {
                         ${alterarSinais(quiz.questions[pergunta-1].options[3])}
                     </div>
                 </label>
+
+                <label for="alternativa_e">
+                    <input type="radio" id="alternativa_e" name="alternativa" value="${alterarSinais(quiz.questions[pergunta-1].options[4])}">
+    
+                    <div>
+                        <span>E</span>
+                        ${alterarSinais(quiz.questions[pergunta-1].options[4])}
+                    </div>
+                </label>
             </form>
     
             <button>Responder</button>
@@ -124,7 +141,7 @@ function validarResposta() {
     botaoEnviar.innerText = "Próxima"
     botaoEnviar.removeEventListener("click", validarResposta)
 
-    if (pergunta === 10) {
+    if (pergunta === 15) {
         botaoEnviar.innerText = "Finalizar"
         botaoEnviar.addEventListener("click", finalizar)
     } else {

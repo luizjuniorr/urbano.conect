@@ -1,4 +1,10 @@
-import { botaoHomeir } from "../../helpers/botaohome.js"
+const inicio = document.querySelector("header .logo")
+
+inicio.addEventListener("click", homeIr)
+
+function homeIr() {
+    window.location.href = "../../index.html"
+}
 
 const botaoQuiz = document.querySelector("main section button")
 

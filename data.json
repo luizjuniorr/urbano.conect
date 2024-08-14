@@ -1,104 +1,184 @@
 {
     "questions": [
                 {
-                    "question": "Qual o significado de HTML?",
+                    "question": "Macrocefalia urbana pode ser entendida como a massiva concentração das atividades econômicas em algumas metrópoles que propicia o desencadeamento de processos descompassados: redirecionamento e convergência de fluxos migratórios, déficit no número de empregos, ocupação desordenada de determinadas regiões da cidade e estigmatização de estratos sociais, que comprometem substancialmente a segurança pública urbana",
+                    "subquestion": "O processo de concentração espacial apresentado foi estimulado por qual fator geográfico? ",
                     "options": [
-                        "Hyper Trainer Marking Language",
-                        "Hyper Text Marketing Language",
-                        "Hyper Text Markup Language",
-                        "Hyper Text Markup Leveler"
+                        "Limitação da área ocupada.",
+                        "Êxodo da população do campo.",
+                        "Ampliação do risco habitacional.",
+                        "Deficiência do transporte alternativo.",
+                        "Crescimento da taxa de fecundidade."
                     ],
-                    "answer": "Hyper Text Markup Language"
+                    "answer": "Êxodo da população do campo."
                 },
                 {
-                    "question": "Qual das alternativas abaixo mostra a estrutura correta de um documento HTML?",
+                    "question": "Esse processo concentra a população de renda mais elevada e maior poder político em áreas mais centrais e privilegiadas em termos de empregos, infraestrutura básica e serviços sociais. Ao mesmo tempo, redistribui a população menos favorecida quanto a esses aspectos, constituindo uma ocupação periférica que se estende até os municípios limítrofes. Neles, as condições de acesso às áreas mais centrais são agravadas pelas grandes distâncias e pelas dificuldades relacionadas à eficiência do sistema de transporte.",
+                    "subquestion": "O texto caracteriza um estágio do processo de urbanização marcado pela",
                     "options": [
-                        "<html><head></head><body></body></html>",
-                        "<head><html></html><body></body></head>",
-                        "<body><head></head><html></html></body>",
+                        "segregação socioespacial",
+                        "emancipação territorial.",
+                        "conurbação planejada.",
+                        "metropolização tardia.",
+                        "expansão vertical."
+                    ],
+                    "answer": "segregação socioespacial"
+                },
+                {
+                    "question": "O processo de industrialização no Brasil teve um impacto significativo na estrutura urbana das cidades. Uma das consequências desse processo foi:",
+                    "subquestion": "",
+                    "options": [
+                        "a redução da população urbana.",
+                        "a descentralização das atividades econômicas.  ",
+                        "a concentração industrial nas regiões metropolitanas.",
+                        "a diminuição da oferta de empregos urbanos.  ",
+                        "a expansão das áreas rurais."
+                    ],
+                    "answer": "a concentração industrial nas regiões metropolitanas."
+                },
+                {
+                    "question": "A industrialização no Brasil, especialmente a partir da década de 1930, foi marcada por um modelo de desenvolvimento que priorizou:",
+                    "subquestion": "",
+                    "options": [
+                        "a exportação de produtos agrícolas.",
+                        "a importação de bens de consumo.  ",
+                        "a substituição de importações por produtos nacionais.",
+                        "a manutenção das atividades rurais.  ",
+                        "a redução da produção industrial."
+                    ],
+                    "answer": "a substituição de importações por produtos nacionais."
+                },
+                {
+                    "question": "O planejamento deixou de controlar o crescimento urbano e passou a encorajá-lo por todos os meios possíveis e imagináveis. Cidades, a nova mensagem soou em alto e bom som, eram máquinas de produzir riquezas; o primeiro e principal objetivo do planejamento devia ser o de azeitar a máquina.",
+                    "subquestion": "O modelo de planejamento urbano problematizado no texto é marcado pelo(a)",
+                    "options": [
+                        "primazia da gestão popular.",
+                        "uso de práticas sustentáveis.",
+                        "construção do bem-estar social.",
+                        "soberania do poder governamental.",
+                        "ampliação da participação empresarial."
+                    ],
+                    "answer": "ampliação da participação empresarial."
+                },
+                {
+                    "question": "No presente, observa-se crescente atenção aos efeitos da atividade humana, em diferentes áreas, sobre o meio ambiente, sendo constante, nos fóruns internacionais e nas instâncias nacionais, a referência à sustentabilidade como princípio orientador de ações e propostas que deles emanam. A sustentabilidade explica-se pela",
+                    "subquestion": "",
+                    "options": [
+                        "incapacidade de se manter uma atividade econômica ao longo do tempo sem causar danos ao meio ambiente.",
+                        "incompatibilidade entre crescimento econômico acelerado e preservação de recursos naturais e de fontes não renováveis de energia.",
+                        "interação de todas as dimensões do bem-estar humano com o crescimento econômico, sem a preocupação com a conservação dos recursos naturais que estivera presente desde a Antiguidade",
+                        "proteção da biodiversidade em face das ameaças de destruição que sofrem as florestas tropicais devido ao avanço de atividades como a mineração, a monocultura, o tráfico de madeira e de espécies selvagens.",
+                        "necessidade de se satisfazer as demandas atuais colocadas pelo desenvolvimento sem comprometer a capacidade de as gerações futuras atenderem suas próprias necessidades nos campos econômico, social e ambiental."
+                    ],
+                    "answer": "necessidade de se satisfazer as demandas atuais colocadas pelo desenvolvimento sem comprometer a capacidade de as gerações futuras atenderem suas próprias necessidades nos campos econômico, social e ambiental."
+                },
+                {
+                    "question": "Particularmente nos dias de inverno, pode ocorrer um rápido resfriamento do solo ou um rápido aquecimento das camadas atmosféricas superiores. O ar quente fica por cima da camada de ar frio, passando a funcionar como um bloqueio, o que impede a formação de correntes de ar (vento). Dessa forma, o ar frio próximo ao solo não sobe porque é o mais denso, e o ar quente que lhe está por cima não desce porque é o menos denso. Nas grandes cidades, esse fenômeno tende a se agravar, uma vez que a expressiva concentração de indústrias e automóveis intensifica o lançamento de poluentes e material particulado na atmosfera, o que torna o ar mais impuro e, por conseguinte, contribui para o aumento de casos de irritação nos olhos e doenças respiratórias.",
+                    "subquestion": "Agravado pela ação antrópica, o fenômeno atmosférico descrito no texto é o(a)",
+                    "options": [
+                        "Efeito estufa.",
+                        "Ilha de calor.",
+                        "Inversão térmica.",
+                        "Ciclone tropical.",
+                        "Chuva orográfica."
+                    ],
+                    "answer": "Inversão térmica."
+                },
+                {
+                    "question": "O processo de industrialização brasileira a partir da década de 1950, que teve como um de seus marcos a criação da Petrobras, foi caracterizado pela:",
+                    "subquestion": "",
+                    "options": [
+                        "Nacionalização das indústrias.",
+                        "Diversificação da matriz energética.",
+                        "Exploração dos recursos naturais.",
+                        "Expansão do setor energético.",
+                        "Privatização das empresas estatais"
+                    ],
+                    "answer": "Expansão do setor energético."
+                },
+                {
+                    "question": "O fenômeno de ilha de calor é o exemplo mais marcante da modificação das condições iniciais do clima pelo processo de urbanização, caracterizado pela modificação do solo e pelo calor antropogênico, o qual inclui todas as atividades humanas inerentes à sua vida na cidade.",
+                    "subquestion": "",
+                    "options": [
+                        "pela reconstrução dos leitos originais dos cursos d’água antes canalizados.",
+                        "pela recomposição de áreas verdes nas áreas centrais dos centros urbanos.",
+                        "pelo uso de materiais com alta capacidade de reflexão no topo dos edifícios.",
+                        "pelo processo de impermeabilização do solo nas áreas centrais das cidades. ",
+                        "pela construção de vias expressas e gerenciamento de tráfego terrestre."
+                    ],
+                    "answer": "pelo processo de impermeabilização do solo nas áreas centrais das cidades. "
+                },
+                {
+                    "question": "A urbanização no Brasil tem sido acompanhada por um crescimento desordenado das cidades. Uma das consequências desse crescimento é:",
+                    "subquestion": "",
+                    "options": [
+                        "a melhoria na qualidade de vida.  ",
+                        "a preservação das áreas naturais.  ",
+                        "a formação de áreas de risco e ocupações irregulares.",
+                        "a redução da densidade populacional.  ",
                         "<html><body></body><head></head></html>"
                     ],
-                    "answer": "<html><head></head><body></body></html>"
+                    "answer": "a formação de áreas de risco e ocupações irregulares."
                 },
                 {
-                    "question": "Qual dos elementos abaixo e responsável pelo título do documento?",
+                    "question": "Os gargalos rodoviários do Brasil e o caótico trânsito das suas metrópoles forçam os governos estaduais e federal a retomar os planos de implantação dos trens regionais. Durante as últimas quatro décadas, a malha ferroviária foi esquecida e sucateada, tanto que hoje, em todo o país, apenas duas linhas de passageiros estão em funcionamento. Transportam 1,5 milhão de pessoas entre Belo Horizonte (MG) e Vitória (ES) e entre São Luís (MA) e Carajás (PA) — as duas operadas pela mineradora Vale. Nos anos 1960, mais de 100 milhões de passageiros utilizavam trens interurbanos no território nacional.",
+                    "subquestion": "O sucateamento do meio de transporte descrito foi provocado pela",
                     "options": [
-                        "<head>",
-                        "<title>",
-                        "<header>",
-                        "<top>"
+                        "redução da demanda populacional por trens interurbanos.",
+                        "inadequação dos trajetos em função da extensão do país.",
+                        "precarização tecnológica frente a outros meios de deslocamento.",
+                        "priorização da malha rodoviária no período de modernização do espaço.",
+                        "ampliação dos problemas ambientais associados à conservação das ferrovias."
                     ],
-                    "answer": "<title>"
+                    "answer": "priorização da malha rodoviária no período de modernização do espaço."
                 },
                 {
-                    "question": "Qual é a função da tag <body> no HTML?",
+                    "question": "O processo de industrialização brasileira, especialmente a partir dos anos 1930, foi fortemente influenciado por políticas de:",
+                    "subquestion": "",
                     "options": [
-                        "Define o cabeçalho da página.",
-                        "Contém todo o conteúdo como textos, imagens e links.",
-                        "Utilizada para definir o conteúdo principal da página.",
-                        "Define o corpo de um elemento de email no HTML."
+                        "Abertura comercial.",
+                        "Protecionismo econômico.",
+                        "Liberalismo econômico.",
+                        "Globalização.",
+                        "Privatização."
                     ],
-                    "answer": "Contém todo o conteúdo como textos, imagens e links."
+                    "answer": "Protecionismo econômico."
                 },
                 {
-                    "question": "Qual das tags abaixo é usada para criar hyperlinks (âncoras)?",
+                    "question": "Trata-se de um gigantesco movimento de construção de cidades, necessário para o assentamento residencial dessa população, bem como de suas necessidades de trabalho, abastecimento, transportes, saúde, energia, água etc. Ainda que o rumo tomado pelo crescimento urbano não tenha respondido satisfatoriamente a todas essas necessidades, o território foi ocupado e foram construídas as condições para viver nesse espaço.",
+                    "subquestion": "A dinâmica de transformação das cidades tende a apresentar como conseqüência a expansão das áreas periféricas pelo(a)",
                     "options": [
-                        "<hyperlink>",
-                        "<link>",
-                        "<a>",
-                        "<href>"
+                        "crescimento da população urbana e aumento da especulação imobiliária.",
+                        "direcionamento maior do fluxo de pessoas, devido à existência de um grande número de serviços.",
+                        "delimitação de áreas para uma ocupação organizada do espaço físico, melhorando a qualidade de vida.",
+                        "implantação de políticas públicas que promovem a moradia e o direito à cidade aos seus moradores.",
+                        "reurbanização de moradias nas áreas centrais, mantendo o trabalhador próximo ao seu emprego, diminuindo os deslocamentos para a periferia."
                     ],
-                    "answer": "<a>"
+                    "answer": "crescimento da população urbana e aumento da especulação imobiliária."
                 },
                 {
-                    "question": "Qual das tags é usada para mostrar imagens no HTML?",
+                    "question": "No século XIX, o preço mais alto dos terrenos situados no centro das cidades é causa da especialização dos bairros e de sua diferenciação social. Muitas pessoas, que não têm meios de pagar os altos aluguéis dos bairros elegantes, são progressivamente rejeitadas para a periferia, como os subúrbios e os bairros mais afastados.",
+                    "subquestion": "Uma conseqüência geográfica do processo socioespacial descrito no texto é a",
                     "options": [
-                        "<img>",
-                        "<image>",
-                        "<src>",
-                        "<pic>"
+                        "criação de condomínios fechados de moradia.",
+                        "decadência das áreas centrais de comércio popular.",
+                        "aceleração do processo conhecido como cercamento.",
+                        "ampliação do tempo de deslocamento diário da população.",
+                        "contenção da ocupação de espaços sem infraestrutura satisfatória."
                     ],
-                    "answer": "<img>"
+                    "answer": "ampliação do tempo de deslocamento diário da população."
                 },
                 {
-                    "question": "Qual atributo é utilizado para indicar o caminho (fonte) de uma tag <img>?",
+                    "question": "A sustentabilidade é o maior desafio global. Por isso o desenvolvimento de um país, por mais exemplar que venha a ser, só poderá ser realmente sustentável quando a pegada ecológica mundial deixar de ultrapassar a capacidade de regeneração da biosfera. Não é diferente em termos setoriais. O setor agropecuário só será sustentável se também o forem o industrial, o terciário e a mineração.",
+                    "subquestion": "De acordo com o texto, a busca da sustentabilidade ambiental envolve mudança de hábitos, para que o desenvolvimento seja pautado no(a)",
                     "options": [
-                        "link",
-                        "src",
-                        "href",
-                        "url"
+                        "busca de alternativas tecnológicas visando reduzir a jornada de trabalho.",
+                        "trabalho cooperativo, com remuneração justa e distribuição igualitária de renda.",
+                        "satisfação das necessidades da geração atual, assim como as das gerações futuras.",
+                        "incentivo à alta produtividade e ao consumo, para evitar crises econômicas mundiais.",
+                        "redução dos lucros atuais, a fim de garantir capital e preservação de recursos para as futuras gerações."
                     ],
-                    "answer": "src"
-                },
-                {
-                    "question": "Qual tag HTML é usada para criar uma lista não ordenada?",
-                    "options": [
-                        "<ul>",
-                        "<ol>",
-                        "<list>",
-                        "<li>"
-                    ],
-                    "answer": "<ul>"
-                },
-                {
-                    "question": "O que faz a tag <br>?",
-                    "options": [
-                        "Quebra o texto em duas seções.",
-                        "Deixa o texto em negrito.",
-                        "Insere uma quebra de linha.",
-                        "Adiciona uma nova linha na tabela."
-                    ],
-                    "answer": "Insere uma quebra de linha."
-                },
-                {
-                    "question": "No HTML, o que faz a tag `fieldset`?",
-                    "options": [
-                        "É usada para agrupar informações relacionadas de um formulário.",
-                        "Define um tamanho fixo para o formulário.",
-                        "Faz a verificação automática das respostas do formulário.",
-                        "Esconde os campos de um formulário."
-                    ],
-                    "answer": "É usada para agrupar informações relacionadas de um formulário."
+                    "answer": "satisfação das necessidades da geração atual, assim como as das gerações futuras."
                 }
             ]
 }

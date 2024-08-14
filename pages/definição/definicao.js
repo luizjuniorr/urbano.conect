@@ -1,5 +1,10 @@
-import { botaoHomeir } from "../../helpers/botaohome.js"
-import { abrirMenu, fecharMenu } from "../../helpers/menu.js"
+const inicio = document.querySelector("header .logo")
+
+inicio.addEventListener("click", homeIr)
+
+function homeIr() {
+    window.location.href = "../../index.html"
+}
 
 const botaoSobreNos = document.querySelector("header .menus #sobrenos")
 const botaoSugestoes = document.querySelector("header .menus #sugestoes")

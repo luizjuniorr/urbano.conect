@@ -1,16 +1,7 @@
-import { botaoHomeir } from "../../helpers/botaohome.js"
-import { abrirMenu, fecharMenu } from "../../helpers/menu.js"
+const inicio = document.querySelector("header .logo")
 
-const botaoSobreNos = document.querySelector("header .menus #sobrenos")
-const botaoSugestoes = document.querySelector("header .menus #sugestoes")
+inicio.addEventListener("click", homeIr)
 
-botaoSobreNos.addEventListener('click', botaoSobreNosir)
-botaoSugestoes.addEventListener('click', botaoSugestoesir)
-
-function botaoSobreNosir() {
-    window.location.href = "../sobrenos/sobrenos.html"
-}
-
-function botaoSugestoesir() {
-    window.location.href = "../sugestoes/sugestoes.html"
+function homeIr() {
+    window.location.href = "../../index.html"
 }

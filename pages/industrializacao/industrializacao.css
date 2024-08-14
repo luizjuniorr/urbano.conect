@@ -202,7 +202,6 @@ h2 {
 
 h3 {
     color: var(--gray);
-    margin-inline: auto;
 }
 
 h4 {
@@ -219,5 +218,9 @@ section {
 }
 
 main div {
+    margin-inline: auto;
+}
+
+.material_de_apoio h3 {
     margin-inline: auto;
 }
