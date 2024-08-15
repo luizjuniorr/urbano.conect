@@ -6,7 +6,7 @@ function homeIr() {
     window.location.href = "./index.html"
 }
 
-const botaoConteudo = document.querySelector(".conteudo button")
+const botaoConteudo = document.querySelector(".assunto button")
 botaoConteudo.addEventListener("click", irConteudo)
 
 function irConteudo() {
