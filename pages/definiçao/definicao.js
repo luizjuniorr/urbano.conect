@@ -24,5 +24,5 @@ const botaoDireita = document.querySelector(".direita")
 botaoDireita.addEventListener("click", direita)
 
 function direita(){
-    window.location.href = "../exodorural/exodorural.html"
+    window.location.href = "../industrializacao/industrializacao.html"
 }

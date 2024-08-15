@@ -134,6 +134,11 @@ header nav.menus ul li {
     cursor: pointer;
 }
 
+.setas a {
+    font-style: none;
+    color: black;
+}
+
 .setas {
     height: 100vh;
     display: flex;

@@ -142,6 +142,11 @@ header nav.menus ul li {
     position: fixed;
 }
 
+.setas a {
+    font-style: none;
+    color: black;
+}
+
 .setas button {
     background: none;
     border: none;
