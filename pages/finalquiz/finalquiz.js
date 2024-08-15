@@ -22,7 +22,7 @@ function inserirResultado() {
                 <h2>Você acertou...</h2>
 
                 <strong>${pontos}</strong>
-                <p>de 14 questões</p>
+                <p>de 15 questões</p>
     `
 }
 
