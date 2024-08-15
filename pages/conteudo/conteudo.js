@@ -17,7 +17,7 @@ botaoIndustrializacao.addEventListener("click", botaoIndustrializacaoIr)
 botaoSustentabilidade.addEventListener("click", botaoSustentabilidadeIr)
 
 function botaoDefinicaoIr() {
-    window.location.href = "../definição/definicao.html"
+    window.location.href = "../definiçao/definicao.html"
 }
 
 function botaoPrincipaisDesafiosIr() {
