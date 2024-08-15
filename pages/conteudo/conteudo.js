@@ -6,28 +6,28 @@ function homeIr() {
     window.location.href = "../../index.html"
 }
 
-const botaoDefinicao = document.querySelector(".conteudos .definicao button")
-const botaoExodo = document.querySelector(".conteudos .exodo button")
-const botaoIndustrializacao = document.querySelector(".conteudos .industrializacao button")
-const botaoBeneficioseproblemas = document.querySelector(".conteudos .beneficioseproblemas button")
+const botaoDefinicao = document.querySelector(".conteudos .definicao")
+const botaoPrincipaisDesafios = document.querySelector(".conteudos .principaisdesafios")
+const botaoIndustrializacao = document.querySelector(".conteudos .industrializacao ")
+const botaoSustentabilidade = document.querySelector(".conteudos .sustentabilidade")
 
-botaoDefinicao.addEventListener("click", botaoDefinicaoir)
-botaoExodo.addEventListener("click", botaoExodoir)
-botaoIndustrializacao.addEventListener("click", botaoIndustrializacaoir)
-botaoBeneficioseproblemas.addEventListener("click", botaoBeneficioseproblemasir)
+botaoDefinicao.addEventListener("click", botaoDefinicaoIr)
+botaoPrincipaisDesafios.addEventListener("click", botaoPrincipaisDesafiosIr)
+botaoIndustrializacao.addEventListener("click", botaoIndustrializacaoIr)
+botaoSustentabilidade.addEventListener("click", botaoSustentabilidadeIr)
 
-function botaoDefinicaoir() {
+function botaoDefinicaoIr() {
     window.location.href = "../definição/definicao.html"
 }
 
-function botaoExodoir() {
+function botaoPrincipaisDesafiosIr() {
     window.location.href = "../exodorural/exodorural.html"
 }
 
-function botaoIndustrializacaoir() {
+function botaoIndustrializacaoIr() {
     window.location.href = "../industrializacao/industrializacao.html"
 }
 
-function botaoBeneficioseproblemasir() {
+function botaoSustentabilidadeIr() {
     window.location.href = "../beneficioseproblemas/beneficioseproblemas.html"
 }
