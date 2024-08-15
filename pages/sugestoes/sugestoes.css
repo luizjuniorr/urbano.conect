@@ -183,6 +183,25 @@ main form label {
     margin-top: 5px;
 }
 
+main form input {
+    background: var(--light-dark-blue);
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
+}
+
+main form textarea {
+    background: var(--light-dark-blue);
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
+}
+
+main form textarea:focus, main form input:focus {
+    outline: 2px solid var(--light-green);
+}
+
 main form input::placeholder {
     color: var(--gray);
     line-height: 20px;
