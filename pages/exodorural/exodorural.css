@@ -196,7 +196,7 @@ h1 {
     font-size: 30px;
 }
 
-h2 {
+h2,h3 {
     color: var(--gray);
 }
 
@@ -210,5 +210,14 @@ section {
 }
 
 main div {
+    margin-inline: auto;
+}
+
+iframe {
+    margin-inline: auto;
+    margin-bottom: 20px;
+}
+
+.material_de_apoio h3 {
     margin-inline: auto;
 }
