@@ -21,7 +21,7 @@ function botaoDefinicaoIr() {
 }
 
 function botaoPrincipaisDesafiosIr() {
-    window.location.href = "../exodorural/exodorural.html"
+    window.location.href = "../principaisdesafios/principaisdesafios.html"
 }
 
 function botaoIndustrializacaoIr() {
@@ -29,5 +29,5 @@ function botaoIndustrializacaoIr() {
 }
 
 function botaoSustentabilidadeIr() {
-    window.location.href = "../beneficioseproblemas/beneficioseproblemas.html"
+    window.location.href = "../sustentabilidades/sustentabilidades.html"
 }
