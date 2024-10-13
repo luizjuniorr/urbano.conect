@@ -11,6 +11,7 @@
     --dark-blue: #1D2540;
     --light-dark-blue: #3C506A;
     --light-green: #62C0BD;
+    --light-green-hover: #4b9693;
     --gray: #626C7F;
 }
 
@@ -218,6 +219,12 @@ main form button {
     text-transform: uppercase;
     font-weight: 500;
     font-size: 15px;
+    cursor: pointer;
+}
+
+main form button:hover {
+    background: var(--light-green-hover);
+    color: var(--white);
 }
 
 .popup {

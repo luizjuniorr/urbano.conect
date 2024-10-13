@@ -350,3 +350,8 @@ section {
         margin-inline: auto;
     }
 }
+
+.mensagemsair .conteudo button:hover {
+    background: var(--light-green-hover);
+    color: var(--white);
+}
