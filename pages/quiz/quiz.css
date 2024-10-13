@@ -145,6 +145,14 @@ header nav.menus ul li {
     font-weight: 500;
 }
 
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 main section{
     display: flex;
     flex-direction: column;

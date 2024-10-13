@@ -17,6 +17,7 @@
 body {
     max-width: 1440px;
     margin-inline: auto;
+    background-color: var(--light-dark-blue);
 }
 
 body.escurecer::before {
@@ -133,10 +134,14 @@ header nav.menus ul li {
     cursor: pointer;
 }
 
+main {
+    background: var(--white);
+    height: 100vh;
+}
+
 main div {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
 }
 
 .titulo{
@@ -146,6 +151,7 @@ main div {
     text-transform: uppercase;
     background: var(--light-green);
     width: 400px;
+    margin-top: 20px;
 }
 
 main img {
@@ -158,6 +164,7 @@ main img {
     justify-content: center;
     gap: 100px;
     margin-bottom: 50px;
+    margin-top: 30px;
 }
 
 main .textos div{

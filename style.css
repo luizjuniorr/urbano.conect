@@ -18,6 +18,7 @@
 body {
     max-width: 1440px;
     margin-inline: auto;
+    background-color: var(--light-dark-blue);
 }
 
 body.escurecer::before {
@@ -144,6 +145,8 @@ body .assunto button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: var(--white);
+    height: 100%;
 }
 
 .boasvindas h1{
@@ -182,7 +185,6 @@ body .assunto button:hover {
 }
 
 .assunto {
-    margin-top: 20px;
     background: var(--dark-blue);
     height: 100%;
     color: var(--white);
@@ -201,6 +203,7 @@ body .assunto button:hover {
     justify-content: flex-start;
     width: 130px;
     height: 130px;
+    margin-left: 50px;
 }
 
 .assunto .headerassunto .tituloassunto h1 {
@@ -266,6 +269,8 @@ body .assunto button:hover {
 
 .assunto .temas .temaassunto h2 {
     margin-top: 8px;
+    text-align: center;
+    width: 300px;
 }
 
 .assunto .temas .temaassunto p {
