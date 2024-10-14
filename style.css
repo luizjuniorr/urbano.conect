@@ -303,7 +303,7 @@ body .assunto button:hover {
 
 .inf {
     margin-top: 20px;
-    background: var(--light-dark-blue);
+    background: var(--gray);
 
     display: flex;
     align-items: center;
