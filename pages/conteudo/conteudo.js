@@ -1,11 +1,3 @@
-const inicio = document.querySelector("header .logo")
-
-inicio.addEventListener("click", homeIr)
-
-function homeIr() {
-    window.location.href = "../../index.html"
-}
-
 const botaoDefinicao = document.querySelector(".conteudos .definicao")
 const botaoPrincipaisDesafios = document.querySelector(".conteudos .principaisdesafios")
 const botaoIndustrializacao = document.querySelector(".conteudos .industrializacao ")
@@ -31,3 +23,17 @@ function botaoIndustrializacaoIr() {
 function botaoSustentabilidadeIr() {
     window.location.href = "../sustentabilidades/sustentabilidades.html"
 }
+
+import { verifyToken } from "../../utils/verifytoken.js"
+import { getName  } from "../../utils/getname.js"
+import { homeIr } from "../../utils/home.js"
+import { perfilIr } from "../../utils/perfil.js"
+
+const url = "../login/login.html"
+const homeUrl = "../../index.js"
+const perfilUrl = "../perfil/perfil.html"
+
+verifyToken(url)
+getName()
+homeIr(homeUrl)
+perfilIr(perfilUrl)

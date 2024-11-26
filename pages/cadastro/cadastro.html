@@ -6,29 +6,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./cadastro.css    ">
+    <link rel="stylesheet" href="./cadastro.css">
     <script src="./cadastro.js" defer></script>
     <title>Urbano.conect</title>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="../../assets/images/logo.png" alt="Logo urbano.conect">
-            <p><strong>Urbano.</strong>conect</p>
-        </div>
-
-        <div class="navegacao">
-            <nav>
-                <ul>
-                    <li><a href="./pages/conteudo/conteudo.html">Conteúdo</a></li>
-                    <li><a href="./pages/quiz/quiz.html">Quiz</a></li>
-                    <li><a href="./pages/sugestoes/sugestoes.html">Sugestões</a></li>
-                    <li><a href="./pages/nossamissao/nossamissao.html">Nossa Missão</a></li>
-                    <li><a href="./pages/login/login.html">Login</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
 
     <main>
         <div class="box">
@@ -40,29 +22,28 @@
                 </div>
             </div>
     
-            <form action="">
-                <div class="usuario">
-                    <input type="text" id="user" placeholder="Usuário">
-                </div>
-
-                <div class="email">
-                    <input type="email" id="email" placeholder="E-mail">
-                </div>
-
-                <div class="serie">
-                    <input type="number" id="serie" placeholder="Serie">
-                </div>
-
-                <div class="senha">
-                    <input type="password" id="password" placeholder="Senha">
-                </div>
-
-                <div class="confirmarsenha">
-                    <input type="password" id="password" placeholder="Confirmar senha">
-                </div>
+            <form>
     
-                <button>Entrar</button>
-            </form>      
+                <input type="text" id="name" placeholder="Usuario">
+                <input type="email" id="email" placeholder="E-mail">
+
+                <select name="serie" id="serie">
+                    <option selected disabled>Sua serie...</option>
+                    <option value="6ano">6° Ano</option>
+                    <option value="7ano">7° Ano</option>
+                    <option value="8ano">8° Ano</option>
+                    <option value="9ano">9° Ano</option>
+                    <option value="1EnsinoMedio">1° Ensino Médio</option>
+                    <option value="2EnsinoMedio">2° Ensino Médio</option>
+                    <option value="3EnsinoMedio">3° Ensino Médio</option>
+                </select>
+
+                <input type="password" id="password" placeholder="Senha">
+                <input type="password" id="passwordConfirmation" placeholder="Senha">
+                
+                <button>Cadastrar</button>
+            </form> 
+            <p>Já possui cadastro? <a href="../login/login.html">Faça login!</a></p>     
         </div> 
     </main>
 </body>

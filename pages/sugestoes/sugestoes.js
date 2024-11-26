@@ -1,8 +1,13 @@
-const inicio = document.querySelector("header .logo")
+import { verifyToken } from "../../utils/verifytoken.js"
+import { getName  } from "../../utils/getname.js"
+import { homeIr } from "../../utils/home.js"
+import { perfilIr } from "../../utils/perfil.js"
 
-inicio.addEventListener("click", homeIr)
+const url = "../login/login.html"
+const homeUrl = "../../index.js"
+const perfilUrl = "../perfil/perfil.html"
 
-function homeIr() {
-    window.location.href = "../../index.html"
-}
-
+verifyToken(url)
+getName()
+homeIr(homeUrl)
+perfilIr(perfilUrl)

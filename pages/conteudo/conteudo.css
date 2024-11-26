@@ -7,14 +7,19 @@
 
 :root {
     --white: #fff;
+    --white-dark: #cfcfcf;
     --black: #000;
     --dark-blue: #1D2540;
     --light-dark-blue: #3C506A;
     --light-green: #62C0BD;
+    --light-green-hover: #4b9693;
     --gray: #626C7F;
+    --red: #ee5454;
+    --red-hover: #e22b2b;
 }
 
 body {
+    max-width: 1440px;
     margin-inline: auto;
 }
 
@@ -61,6 +66,10 @@ header .navegacao {
     margin-right: 20px;
 }
 
+header .navegacao nav {
+    margin-right: 20px;
+}
+
 header .navegacao ul {
     display: flex;
     list-style: none;
@@ -78,58 +87,20 @@ header .navegacao button {
     cursor: pointer;
 }
 
-header .navegacao button img {
-    height: 30px;
-    width: 30px;
-}
-
-header nav.menus{
-    position: fixed;
-    background-color: var(--white);
-    top: 0;
-    right: -300px;
-
+header .navegacao .user {
     display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: 300px;
-    transition: 0.5s;
-}
-
-header nav.menus.abrir{
-    right: 0;
-    transition: 0.5s;
-}
-
-header nav.menus div{
-    display: flex;
-    justify-content: flex-end;
-    margin: 10px 10px 0 0;
-}
-
-header nav.menus button img {
-    width: 35px;
-    height: 35px;
-}
-
-header nav.menus ul {
-    display: flex;
-    flex-direction: column;
     align-items: center;
-
-    margin-top: 20px;
-}
-
-header nav.menus ul li {
-    display: flex;
     justify-content: center;
-    align-items: center;
-    background: var(--light-green);
-    width: 250px;
-    height: 42px;
-    border-radius: 10px;
-    font-size: 16px;
     cursor: pointer;
+    
+    && img {
+        margin-right: 10px;
+    }
+}
+
+header .navegacao .user img {
+    width: 40px;
+    height: 40px;
 }
 
 main .imagem img{
