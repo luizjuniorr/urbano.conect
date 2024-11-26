@@ -43,7 +43,7 @@ saveRanking()
 
 import { verifyToken } from "../../utils/verifytoken.js"
 import { getName  } from "../../utils/getname.js"
-import { homeIr } from "../../utils/home.html"
+import { homeIr } from "../../utils/home.js"
 import { perfilIr } from "../../utils/perfil.js"
 
 const url = "../login/login.html"
