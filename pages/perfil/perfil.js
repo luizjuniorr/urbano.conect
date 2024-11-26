@@ -5,7 +5,7 @@ async function getName() {
         return
     }
 
-    const response = await fetch("http://localhost:3000/getname", {
+    const response = await fetch("https://urbanoconectbackend.vercel.app/getname", {
         headers: {
             "Authorization": token
         }
@@ -25,8 +25,14 @@ const button = document.querySelector(".all .sair button")
     })
 
 import { verifyToken } from "../../utils/verifytoken.js"
+import { homeIr } from "../../utils/home.js"
+import { perfilIr } from "../../utils/perfil.js"
 
 const url = "../login/login.html"
+const homeUrl = "../../index.html"
+const perfilUrl = "../perfil/perfil.html"
 
 verifyToken(url)
 getName()
+homeIr(homeUrl)
+perfilIr(perfilUrl)

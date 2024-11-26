@@ -29,7 +29,7 @@ async function saveRanking() {
         token 
     }
 
-    const response = await fetch("http://localhost:3000/save-score", {
+    const response = await fetch("https://urbanoconectbackend.vercel.app/save-score", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -43,7 +43,7 @@ saveRanking()
 
 import { verifyToken } from "../../utils/verifytoken.js"
 import { getName  } from "../../utils/getname.js"
-import { homeIr } from "../../utils/home.js"
+import { homeIr } from "../../utils/home.html"
 import { perfilIr } from "../../utils/perfil.js"
 
 const url = "../login/login.html"

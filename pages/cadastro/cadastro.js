@@ -24,7 +24,7 @@ async function register() {
         password
     }
 
-    const response = await fetch("http://localhost:3000/register", {
+    const response = await fetch("https://urbanoconectbackend.vercel.app/register", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"

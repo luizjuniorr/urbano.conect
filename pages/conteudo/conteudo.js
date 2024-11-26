@@ -30,7 +30,7 @@ import { homeIr } from "../../utils/home.js"
 import { perfilIr } from "../../utils/perfil.js"
 
 const url = "../login/login.html"
-const homeUrl = "../../index.js"
+const homeUrl = "../../index.html"
 const perfilUrl = "../perfil/perfil.html"
 
 verifyToken(url)

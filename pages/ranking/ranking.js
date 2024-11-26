@@ -2,7 +2,7 @@ async function ranking() {
     const token = localStorage.getItem("token");
 
     // Obtém o ranking do servidor
-    const response = await fetch("http://localhost:3000/ranking", {
+    const response = await fetch("https://urbanoconectbackend.vercel.app/ranking", {
         headers: {
             "Authorization": token,
         },
@@ -32,7 +32,7 @@ import { homeIr } from "../../utils/home.js"
 import { perfilIr } from "../../utils/perfil.js"
 
 const url = "../login/login.html"
-const homeUrl = "../../index.js"
+const homeUrl = "../../index.html"
 const perfilUrl = "../perfil/perfil.html"
 
 verifyToken(url)
